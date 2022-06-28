@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bowen_Daniel_Capstone_CaseStudy"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.702">
+    <properties></properties>
+
+
+
+            <testcase
+                name="SearchNoProductTest"
+                time="16.702"
+                classname="org.example.testcases.AlexNovaHomePageTest">
+            </testcase>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bowen_Daniel_Capstone_CaseStudy"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="19.902">
+    <properties></properties>
+
+
+
+            <testcase
+                name="EmailLogInVerification"
+                time="19.902"
+                classname="org.example.testcases.AlexNovaLoginTest">
+            </testcase>
+</testsuite>
