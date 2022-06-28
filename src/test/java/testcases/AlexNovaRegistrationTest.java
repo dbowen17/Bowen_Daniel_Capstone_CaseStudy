@@ -1,4 +1,4 @@
-package org.example.testcases;
+package testcases;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -6,9 +6,9 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import library.SelectBrowser;
-import org.example.pages.AlexNovaLoginPage;
-import org.example.pages.AlexNovaRegistrationPage;
-import org.example.pages.AlexNovaHomePage;
+import pages.AlexNovaLoginPage;
+import pages.AlexNovaRegistrationPage;
+import pages.AlexNovaHomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
