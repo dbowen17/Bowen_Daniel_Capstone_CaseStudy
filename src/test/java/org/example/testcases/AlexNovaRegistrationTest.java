@@ -113,7 +113,7 @@ public class AlexNovaRegistrationTest {
 
          }
          @Test(priority = 4)
-         public void RequiredMandatoryFields(){
+         public void RequiredMandatoryFields() throws InterruptedException {
              test = extent.createTest("Email Validation", "Test Passed");
              homePage = new AlexNovaHomePage(driver);
              homePage.clickAccount();
@@ -123,6 +123,7 @@ public class AlexNovaRegistrationTest {
              registrationPage.mandatoryField();
              registrationPage.clickRegisterButton2();
              loginPage = new AlexNovaLoginPage(driver);
+             Thread.sleep(4000);
              Assert.assertTrue(loginPage.errorSorry());
 
          }

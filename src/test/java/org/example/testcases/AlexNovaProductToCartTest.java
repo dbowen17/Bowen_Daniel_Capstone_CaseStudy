@@ -99,9 +99,6 @@ public class AlexNovaProductToCartTest {
         Thread.sleep(4000);
         productPage.pageRefresh();
         homePage = new AlexNovaHomePage(driver);
-
-
-
         Assert.assertEquals("1", homePage.getHomeCartInfo());
 
     }

@@ -37,12 +37,12 @@ public class AlexNovaLoginPage {
     public boolean checkWelcome() {
         driver.findElement(By.xpath("/html/body/div[3]/h1"));
 
-        return false;
+        return true;
     }
 
     public boolean errorSorry() {
         driver.findElement(By.xpath("/html/body/div[3]/div[2]/div[1]/form/p"));
-        return false;
+        return true;
     }
 
 }

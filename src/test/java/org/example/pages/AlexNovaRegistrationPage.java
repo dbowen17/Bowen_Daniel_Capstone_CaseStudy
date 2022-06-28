@@ -29,7 +29,7 @@ public class AlexNovaRegistrationPage {
         driver.findElement(By.name("customer[password]")).sendKeys("P@ssword");
     }
     public void mandatoryField(){
-        driver.findElement(By.name("customer[email]")).sendKeys("testAtgmailcom");
+        driver.findElement(By.name("customer[email]")).sendKeys("testAtgmail.com");
         driver.findElement(By.name("customer[password]")).sendKeys("P@ssword");
     }
 
