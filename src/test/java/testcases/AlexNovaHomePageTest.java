@@ -6,6 +6,7 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import library.SelectBrowser;
+import org.testng.annotations.*;
 import pages.AlexNovaLoginPage;
 import pages.AlexNovaRegistrationPage;
 import pages.AlexNovaSearchPage;
@@ -13,10 +14,6 @@ import pages.AlexNovaHomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -55,7 +52,7 @@ public class AlexNovaHomePageTest {
 
     }
 
-    @BeforeTest
+    @BeforeMethod
     public void launchBrowser(){
 
         driver = SelectBrowser.StartBrowser("Chrome");

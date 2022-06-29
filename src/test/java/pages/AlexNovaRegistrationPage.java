@@ -19,7 +19,7 @@ public class AlexNovaRegistrationPage {
 
         driver.findElement(By.name("customer[first_name]")).sendKeys("Fink");
         driver.findElement(By.name("customer[last_name]")).sendKeys("John");
-        driver.findElement(By.name("customer[email]")).sendKeys("testpass71@ps71.com");
+        driver.findElement(By.name("customer[email]")).sendKeys("testpass7128@ps71.com");
         driver.findElement(By.name("customer[password]")).sendKeys("P@ssword");
     }
     public void emailValidate(){

@@ -9,10 +9,7 @@ import library.SelectBrowser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 import pages.*;
 
 import java.time.Duration;
@@ -53,7 +50,7 @@ public class AlexNovaCheckOutTest {
 
     }
 
-    @BeforeTest
+    @BeforeMethod
     public void launchBrowser(){
 
         driver = SelectBrowser.StartBrowser("Chrome");
