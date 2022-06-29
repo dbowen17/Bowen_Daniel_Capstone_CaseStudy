@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="suite">
-    <test name ="Alex search">
+    <test name ="Product Test">
         <classes>
-            <class name="testcases.AlexNovaProductToCartTest "/>
+            <class name="testcases.AlexNovaProductToCartTest"/>
+        </classes>
+    </test>
+    <test name ="Checkout Test">
+        <classes>
+            <class name="testcases.AlexNovaCheckOutTest"/>
+        </classes>
+    </test>
+    <test name ="Login Test">
+        <classes>
+            <class name="testcases.AlexNovaLoginTest"/>
+        </classes>
+    </test>
+    <test name ="Registration Test">
+        <classes>
+            <class name="testcases.AlexNovaRegistrationTest"/>
+        </classes>
+    </test>
+    <test name ="Home Page Test">
+        <classes>
+            <class name="testcases.AlexNovaHomePageTest"/>
         </classes>
     </test>
 </suite>
