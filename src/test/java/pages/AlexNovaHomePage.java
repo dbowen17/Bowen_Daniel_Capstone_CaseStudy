@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 public class AlexNovaHomePage {
     WebDriver driver;
 
-   By searchField = By.xpath("//*[@id=\"ispbxii_0\"]");
+   By searchField = By.xpath("/html/body/div[2]/section/header/div[2]/div[4]/form/input[1]");
     By accountButton = By.xpath("/html/body/div[2]/section/header/div[1]/div/div[2]/div[1]/a");
 
     By searchButton = By.xpath("/html/body/div[2]/section/header/div[2]/div[4]/form/input[2]");
@@ -23,7 +23,8 @@ public class AlexNovaHomePage {
     }
 
     public void enterProduct(){
-       driver.findElement(searchField).sendKeys("baby shoes");
+       driver.findElement(searchField).click();
+        driver.findElement(searchField).sendKeys("baby shoes");
     }
 
     public void blankProduct(){

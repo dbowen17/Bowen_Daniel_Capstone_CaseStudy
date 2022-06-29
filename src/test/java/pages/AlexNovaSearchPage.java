@@ -7,7 +7,7 @@ public class AlexNovaSearchPage {
 
     private WebDriver driver;
 
-    By searchHeader = By.xpath("/html/body/div[3]/div[2]/div[3]/div[5]/div[1]/div[2]/h2/span");
+    By searchHeader = By.xpath("/html/body/div[3]/h1");
     By noResults = By.xpath("/html/body/div[3]/div[2]/div[3]/div[5]/ul/li[1]");
 
     public  AlexNovaSearchPage(WebDriver driver) {

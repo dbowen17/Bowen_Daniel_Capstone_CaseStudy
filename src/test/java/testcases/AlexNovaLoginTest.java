@@ -80,7 +80,7 @@ public class AlexNovaLoginTest {
     }
     @Test(priority = 2)
     public void EmailLogInVerification(){
-        test = extent.createTest(" Login User Page", "Test Passed");
+        test = extent.createTest(" Login User Email Page", "Test Passed");
         //very important to pass down the driver
         homePage = new AlexNovaHomePage(driver);
         homePage.clickAccount();
